@@ -1,0 +1,26 @@
+{
+    "name": "real-time-tracker-server",
+    "version": "1.0.0",
+    "description": "Backend for real-time tracker application",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "server": "nodemon index.js"
+    },
+    "author": "Abhishek Rajput",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "express": "^4.21.2",
+        "http": "^0.0.1-security",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^6.11.0",
+        "mongoose": "^5.11.15",
+        "path": "^0.12.7",
+        "socket.io": "^4.8.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "type": "commonjs"
+}
